@@ -1,13 +1,13 @@
 import React, {Component, Fragment} from 'react';
 
-class HomeView extends Component {
+class HeaderView extends Component {
     render() {
         return (
             <Fragment>
-                <h1>Home</h1>
+                <h1>Header</h1>
             </Fragment>
         );
     }
 }
 
-export default HomeView;
+export default HeaderView;
