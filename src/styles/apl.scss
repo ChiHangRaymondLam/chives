@@ -1,0 +1,28 @@
+@import "./base";
+
+.apl {
+  &__header-section {
+    margin-bottom: 20px;
+    border-bottom: $basic-border;
+    @media screen and (max-width: $media-screen-phone) {
+      margin-bottom: 0;
+    }
+
+    h3 {
+      color: $dark-blue;
+      @media screen and (max-width: $media-screen-desktops) {
+        text-align: center;
+      }
+    }
+
+    p {
+      padding: 0 0 5px;
+    }
+  }
+
+  &__side-bar-wrapper {
+    @media screen and (max-width: $media-screen-desktops) {
+      display: none;
+    }
+  }
+}

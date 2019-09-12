@@ -1,0 +1,80 @@
+/* Medium devices (landscape tablets, 768px and up) */
+$media-screen-phone: 599px;
+$media-screen-tablets: 767px;
+$media-screen-desktops: 991px;
+$media-screen-large-desktops: 1199px;
+
+// color
+$base-blue: #00aeef;
+$base-grey: #eeeeee;
+$dark-grey: #636363;
+$dark-blue: #337ab7;
+$border-grey: #aaaaaa;
+$base-orange: #ec8f39;
+
+
+$basic-border: 1px solid #aaaaaa;
+
+.container {
+  margin: 50px auto;
+  max-width: 90%;
+  @media screen and (max-width: $media-screen-desktops) {
+    margin: 20px auto;
+  }
+  @media screen and (max-width: $media-screen-phone) {
+    max-width: 100%;
+    padding: 0 5px;
+    margin-top: 10px;
+  }
+
+  .row {
+    margin: auto 0;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }
+
+  button:focus{
+    outline: none;
+  }
+
+  .border-none {
+    border: none !important;
+  }
+
+  .apl-btn {
+    padding: 5px 16px;
+    border-radius: 6px;
+    border: none;
+  }
+
+  .apl-btn-blue {
+    @extend .apl-btn;
+    background-color: $dark-blue;
+    color: white;
+
+    &:hover {
+      background-color: $base-blue;
+    }
+  }
+
+}
+
+
+
+

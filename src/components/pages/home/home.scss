@@ -1,0 +1,64 @@
+@import "../../../styles/apl";
+
+.apl-home {
+  .side-bar-wrapper {
+    @media screen and (max-width: $media-screen-desktops) {
+      display: none;
+    }
+  }
+
+  &__search-form-wrapper {
+    margin-bottom: 40px;
+
+    @media screen and (min-width: $media-screen-large-desktops) {
+      padding-right: 40px;
+    }
+
+    @media screen and (max-width: $media-screen-phone) {
+      padding: 0;
+    }
+  }
+
+  &__search-form-section {
+    border: $basic-border;
+    border-radius: 5px;
+    padding: 20px;
+    @media screen and (max-width: $media-screen-phone) {
+      border: none;
+      padding: 5px;
+    }
+  }
+
+  &__explain-work-section {
+    text-align: center;
+    border-bottom: $basic-border;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+
+    h4 {
+      color: $dark-blue;
+    }
+
+    img {
+      @media screen and (min-width: $media-screen-large-desktops) {
+        padding: 20px 20px 5px;
+        width: 90%;
+      }
+    }
+  }
+
+  &__browse-manufacturer-section {
+    text-align: center;
+    border-bottom: $basic-border;
+  }
+
+  &__introduction-wrapper {
+  }
+
+  &__browse-manufacturer-section {
+    h4 {
+      color: $dark-blue;
+    }
+  }
+}

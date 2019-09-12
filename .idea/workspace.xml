@@ -2,17 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d4b977b-c99f-4f1b-ada1-be4daa6212ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/headerContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/headerRedux.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/headerView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/homeView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/homeView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/headerContainer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/headerRedux.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/headerView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/home.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/homeContainer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/homeRedux.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/homeView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -32,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -87,7 +91,12 @@
       <option name="presentableId" value="Default" />
       <updated>1567571709243</updated>
       <workItem from="1567571710622" duration="2605000" />
-      <workItem from="1567593535583" duration="838000" />
+      <workItem from="1567593535583" duration="1271000" />
+      <workItem from="1567656085765" duration="59000" />
+      <workItem from="1567656156951" duration="12000" />
+      <workItem from="1567656267459" duration="585000" />
+      <workItem from="1567818842852" duration="8000" />
+      <workItem from="1568264902730" duration="1491000" />
     </task>
     <servers />
   </component>

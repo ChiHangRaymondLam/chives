@@ -1,0 +1,339 @@
+@import "../../../styles/apl";
+
+.apl-header {
+
+  button:focus {
+    outline: none;
+  }
+
+  .navbar {
+    background-image: linear-gradient(to right, #e0d6d6, #5a5a51);
+    padding: 0 20px;
+    height: 60px;
+    box-shadow: 0 4px 2px -2px #eeeeee;
+    display: flex;
+    @media screen and (max-width: $media-screen-desktops) {
+      display: block;
+    }
+
+    .navbar-logo-wrapper {
+      flex: 1;
+      @media screen and (max-width: $media-screen-desktops) {
+        text-align: center;
+      }
+
+      .logo {
+        height: 36px;
+        width: 200px;
+        @media screen and (max-width: $media-screen-large-desktops) {
+          margin-top: 6px;
+          height: 32px;
+          width: 140px;
+        }
+
+        @media screen and (max-width: $media-screen-desktops) {
+          margin-top: 0;
+          height: 36px;
+          width: 200px;
+        }
+      }
+    }
+
+    .navbar-nav-wrapper {
+      height: 60px;
+      flex: 6;
+      @media screen and (max-width: $media-screen-desktops) {
+        height: auto;
+      }
+
+      .menu-icon-mobile {
+        display: none;
+
+        @media screen and (max-width: $media-screen-desktops) {
+          display: block;
+          position: absolute;
+          right: 10px;
+          font-size: 24px;
+          top: 10px;
+          color: white;
+          background-color: transparent;
+          border: none;
+
+          &.active {
+            color: $dark-blue;
+          }
+        }
+      }
+
+      .navbar-nav {
+        height: 60px;
+        @media screen and (max-width: $media-screen-desktops) {
+          z-index: 2;
+          background-color: white;
+          width: 100%;
+          position: absolute;
+          margin: 4px 0;
+          left: 0;
+          transition: all 0.2s linear;
+          display: block;
+          padding: 0 20px;
+
+          &.show {
+            opacity: 1;
+            //height: 100vh;
+            height: 1000px;
+          }
+
+          &.not-show {
+            transition: opacity 50ms ease-out, transform ease-out;
+            opacity: 0;
+            height: 0;
+            overflow: hidden;
+          }
+        }
+
+        .nav-item {
+          position: relative;
+          display: inline-block;
+          @media screen and (max-width: $media-screen-desktops) {
+            display: block;
+          }
+
+          &:hover {
+            color: white;
+            background-color: $dark-blue;
+
+            .dropdown-menu {
+              visibility: visible;
+              opacity: 1;
+            }
+          }
+
+          &.active {
+            color: white;
+            background-color: $dark-blue;
+          }
+        }
+
+        .nav-link {
+          padding: 20px 10px 0;
+          margin: 0 2px;
+          font-size: 14px;
+          font-weight: bold;
+          color: white;
+          height: 60px;
+          @media screen and (max-width: $media-screen-large-desktops) {
+            font-size: 12px;
+            padding: 24px 6px 0;
+          }
+
+          @media screen and (max-width: $media-screen-desktops) {
+            border-bottom: $basic-border;
+          }
+
+          &.active {
+            color: white;
+            background-color: $dark-blue;
+          }
+
+          &:hover {
+            color: white;
+            background-color: $dark-blue;
+          }
+
+          @media screen and (max-width: $media-screen-desktops) {
+            color: $border-grey;
+            padding-bottom: 6px !important;
+          }
+        }
+
+        .dropdown-menu {
+          @media screen and (min-width: $media-screen-desktops) {
+            display: block;
+          }
+          z-index: 1;
+          margin-left: -1px;
+          margin-top: -1px;
+          border-top: none;
+          background-color: $dark-blue;
+          border-radius: unset;
+          color: white;
+          font-weight: 500;
+          width: 300px;
+          padding: 0;
+          visibility: hidden;
+          opacity: 0;
+          transition: visibility 0s, opacity 0.2s linear;
+
+          &:hover {
+            visibility: visible;
+            opacity: 1;
+          }
+
+          li {
+            border-bottom: $basic-border;
+            padding: 10px 20px;
+
+            &:hover {
+              background-color: $dark-grey;
+              cursor: pointer;
+            }
+
+            &:last-child {
+              border-bottom: none;
+            }
+          }
+        }
+      }
+    }
+
+    .navbar-setting-wrapper {
+      padding-top: 5px;
+      flex: 5;
+      line-height: 40px;
+      display: inline-flex;
+      font-size: 14px;
+
+
+      @media screen and (max-width: $media-screen-desktops) {
+        display: none;
+      }
+
+      .navbar-setting-section {
+        margin-left: auto;
+        display: inline-flex;
+
+        .nav-link {
+          color: white;
+          font-size: 14px;
+          background-color: transparent;
+          border: none;
+          margin: .5rem;
+          padding: 0;
+
+          &.active {
+            color: $dark-blue;
+          }
+
+          @media screen and (min-width: $media-screen-large-desktops) {
+            font-size: 20px;
+            margin: .5rem 1rem;
+            &:hover {
+              color: $dark-blue;
+            }
+          }
+        }
+
+        p {
+          color: white;
+          margin: 0;
+          padding: 8px 0 0;
+        }
+      }
+
+      .nav-lang {
+        padding: 8px 0;
+        color: white;
+
+        button {
+          color: white;
+          font-size: 14px;
+          background-color: transparent;
+          border: none;
+
+          &.active {
+            text-decoration: none;
+            color: $base-blue;
+          }
+
+          &:hover {
+            color: $base-blue;
+            text-decoration: none;
+          }
+        }
+      }
+
+    }
+
+    .navbar-setting-section-mobile {
+      display: none;
+
+      @media screen and (max-width: $media-screen-desktops) {
+        display: block;
+        border-bottom: $basic-border;
+        margin: 0 2px;
+      }
+
+      .btn-log-wrapper {
+        flex: 1;
+        border-right: $basic-border;
+
+        .nav-link {
+          margin: auto;
+          background-color: transparent;
+          border: none;
+        }
+      }
+    }
+  }
+
+  .account-info-section {
+    @media screen and (max-width: $media-screen-desktops) {
+      display: flex;
+      p {
+        margin: 0 auto;
+        padding: 10px;
+      }
+      .btn-logout-mobile-wrapper {
+        position: absolute;
+        margin-top: 6px;
+        right: 10px;
+
+        @media screen and (max-width: $media-screen-phone) {
+          position: inherit;
+          margin-top: 0;
+        }
+
+        .btn-logout-mobile {
+          color: $dark-blue;
+          font-size: 18px;
+          background-color: transparent;
+          border: none;
+          margin: 2px;
+        }
+      }
+    }
+
+    span {
+      color: $base-orange;
+    }
+
+    @media screen and (max-width: $media-screen-phone) {
+      display: block;
+      text-align: center;
+    }
+  }
+
+  .nav-lang-mobile {
+    display: none;
+
+    @media screen and (max-width: $media-screen-desktops) {
+      display: block;
+    }
+
+    flex: 1;
+    text-align: center;
+    margin: 10px 0;
+
+    button {
+      border: none;
+      background-color: transparent;
+      color: $dark-grey;
+
+      &.active {
+        text-decoration: none;
+        color: $base-blue;
+      }
+    }
+  }
+}

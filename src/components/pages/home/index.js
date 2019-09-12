@@ -1,13 +1,16 @@
 import React, {Component, Fragment} from 'react';
+import HomeView from "./home-view";
+import "./home.scss"
 
-class HeaderView extends Component {
+class Home extends Component {
+
     render() {
         return (
             <Fragment>
-                <h1>Header</h1>
+                <HomeView/>
             </Fragment>
         );
     }
 }
 
-export default HeaderView;
+export default Home;

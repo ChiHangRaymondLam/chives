@@ -1,0 +1,32 @@
+@import "../../../styles/apl";
+
+.apl-footer {
+  padding: 20px;
+  height: 80px;
+  display: flex;
+  width: 100%;
+  border-top: 1px solid $base-grey;
+  margin-bottom: 20px;
+  flex-direction: column;
+
+  .logo-wrapper {
+    text-align: center;
+
+    .logo {
+      height: 26px;
+    }
+  }
+
+  .section-wrapper {
+
+    .section {
+      text-align: center;
+
+      p{
+        color: $dark-grey;
+        margin: 0 10px;
+      }
+    }
+  }
+
+}
