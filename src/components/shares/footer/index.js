@@ -6,7 +6,7 @@ import "./footer.scss"
 const Footer = () => {
 
     return (
-        <div className={"apl-footer"}>
+        <div className={"chi-footer"}>
             <div className={"logo-wrapper"}>
                 <img className={"logo"} src={FootLogo} alt={"logo"}/>
             </div>

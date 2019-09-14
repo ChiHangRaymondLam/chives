@@ -1,0 +1,66 @@
+@import "./base";
+
+.chi {
+  &__header-section {
+    margin-bottom: 20px;
+    border-bottom: $basic-border;
+    @media screen and (max-width: $media-screen-phone) {
+      margin-bottom: 0;
+    }
+
+    h3 {
+      color: $dark-blue;
+      @media screen and (max-width: $media-screen-desktops) {
+        text-align: center;
+      }
+    }
+
+    p {
+      padding: 0 0 5px;
+    }
+  }
+
+  &__side-bar-wrapper {
+    @media screen and (max-width: $media-screen-desktops) {
+      display: none;
+    }
+  }
+}
+
+
+.chi-sidebar {
+  padding: 0 20px;
+  max-width: 300px;
+  margin: 0 auto;
+
+  &__wrapper {
+    .title {
+      background-color: $dark-blue;
+      padding-left: 50px;
+      color: white;
+      height: 30px;
+      padding-top: 4px;
+    }
+
+    .section {
+      margin-bottom: 20px;
+
+      .content {
+        padding: 10px 20px;
+        border: 1px solid $border-grey;
+        border-radius: 5px;
+        border-top: none;
+        color: #5a5a51;
+        p{
+          margin: 4px 0;
+        }
+      }
+    }
+  }
+}
+
+.main-content{
+  border: 1px solid grey;
+  min-height: 800px;
+  padding: 20px;
+}

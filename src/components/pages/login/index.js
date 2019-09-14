@@ -9,7 +9,7 @@ class Login extends Component {
     render() {
         return (
             this.props.isLogin ? <App/> :
-                <div className="apl-login">
+                <div className="chi-login">
                     <div className="login-section">
                         <h3>Login</h3>
                         <div className={"logo"}>

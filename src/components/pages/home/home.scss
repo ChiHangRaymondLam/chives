@@ -1,6 +1,6 @@
-@import "../../../styles/apl";
+@import "../../../styles/chi";
 
-.apl-home {
+.chi-home {
   .side-bar-wrapper {
     @media screen and (max-width: $media-screen-desktops) {
       display: none;
@@ -60,5 +60,9 @@
     h4 {
       color: $dark-blue;
     }
+  }
+
+  .step-img{
+    text-align: center;
   }
 }

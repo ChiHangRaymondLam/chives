@@ -8,11 +8,11 @@ export function getDefaultLang(browserLang) {
 export default {
     "en": {
         "nav.home": "HOME",
-        "nav.trade": "BUYING/SELLING",
-        "nav.manage-stock": "MANAGE STOCK",
-        "nav.help": "HELP",
+        "nav.trade": "On Arrival",
+        "nav.manage-stock": "Prepare for a new life",
+        "nav.help": "On Campus",
         "nav.account": "My ACCOUNT",
-        "home.search-title": "Search for Vehicles",
+        "home.search-title": "Home",
     },
     "ja": {
         "nav.home": "ホーム",

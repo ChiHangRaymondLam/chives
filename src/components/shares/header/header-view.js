@@ -3,14 +3,14 @@ import {NavLink} from "react-router-dom";
 import './header.scss'
 import Logo from '../../../assets/images/masseyUniversityLogo.png'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faBars, faSignOutAlt, faUser} from "@fortawesome/free-solid-svg-icons";
+import {faBars} from "@fortawesome/free-solid-svg-icons";
 
 const HeaderView = props => {
 
-    const {isMobileMenuShow, handleMobileMenuShow, getHeaderItems, handleLogin, setLocales, lang} = props;
+    const {isMobileMenuShow, handleMobileMenuShow, getHeaderItems, setLocales, lang} = props;
 
     return (
-        <div className="apl-header">
+        <div className="chi-header">
             <nav className="navbar navbar-expand-lg">
                 <div className="navbar-logo-wrapper">
                     <NavLink className="nav-link" to={"/"} activeClassName="active" exact>
@@ -25,33 +25,10 @@ const HeaderView = props => {
                             }}><FontAwesomeIcon icon={faBars} title={"Logout"}/>
                     </button>
                     <ul className={isMobileMenuShow ? "navbar-nav show" : "navbar-nav not-show"}>
-                        <li className="navbar-setting-section-mobile">
-                            <div className="account-info-section">
-                                <p>AlecZ&nbsp;</p>
-                                <div className="btn-logout-mobile-wrapper">
-                                    <button className="btn-logout-mobile" onClick={() => {
-                                    }}>
-                                        Change
-                                    </button>
-                                    <button className="btn-logout-mobile" onClick={() => {
-                                        handleLogin(false)
-                                    }}>
-                                        <FontAwesomeIcon icon={faSignOutAlt} title={"Logout"}/>
-                                    </button>
-                                </div>
-                            </div>
-                        </li>
                         <li className="nav-item">
                             <NavLink className="nav-link" to={"/"} activeClassName="active" exact>
                                 {getHeaderItems("nav.home")}
                             </NavLink>
-                            <ul className="dropdown-menu">
-                                <li>My WatchList</li>
-                                <li>My Current Questions</li>
-                                <li>My Answered Questions</li>
-                                <li>My Current Offers</li>
-                                <li>My Completed Offers</li>
-                            </ul>
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link" to={"/trade"} activeClassName="active" exact>
@@ -119,17 +96,6 @@ const HeaderView = props => {
                 </div>
                 <div className="navbar-setting-wrapper">
                     <div className="navbar-setting-section">
-                        <NavLink className="nav-link" to={"/account"} activeClassName="active" exact>
-                            <FontAwesomeIcon icon={faUser} title={"My Account"}/>
-                        </NavLink>
-                        <div className="account-info-section">
-                            <p>AlecZ&nbsp;</p>
-                        </div>
-                        <button className="nav-link" onClick={() => {
-                            handleLogin(false)
-                        }}>
-                            <FontAwesomeIcon icon={faSignOutAlt} title={"Logout"}/>
-                        </button>
                         <div className="nav-lang">
                             <button className={lang === "en" ? "active" : null} onClick={() => {
                                 setLocales("en")

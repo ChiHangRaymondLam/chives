@@ -2,22 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d4b977b-c99f-4f1b-ada1-be4daa6212ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/step_img.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/headerContainer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/headerRedux.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/headerView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/home.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/homeContainer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/homeRedux.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/homeView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/BenzCar.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/HowDoesItWork.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/help-page/help-page-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/help-page/help-page-view.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/home/home-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/home-view.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/login/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/login/login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/login/login.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/manage-stock/manage-stock-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/manage-stock/manage-stock-view.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/trade/trade-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/trade/trade-view.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shares/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shares/footer/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shares/footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shares/footer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shares/header/header-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shares/header/header-view.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shares/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shares/header/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shares/side-bar/side-bar-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shares/side-bar/side-bar-view.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shares/side-bar/side-bar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shares/side-bar/side-bar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/messages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/apl.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/chi.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/base.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +40,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -48,6 +52,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/images" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/components/component-home" />
@@ -96,7 +101,9 @@
       <workItem from="1567656156951" duration="12000" />
       <workItem from="1567656267459" duration="585000" />
       <workItem from="1567818842852" duration="8000" />
-      <workItem from="1568264902730" duration="1491000" />
+      <workItem from="1568264902730" duration="2189000" />
+      <workItem from="1568500598954" duration="41000" />
+      <workItem from="1568500663503" duration="1661000" />
     </task>
     <servers />
   </component>
