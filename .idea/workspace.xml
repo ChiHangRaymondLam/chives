@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d4b977b-c99f-4f1b-ada1-be4daa6212ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/step_img.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/BenzCar.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/HowDoesItWork.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/help-page/help-page-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/help-page/help-page-view.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/home/home-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/home-view.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/login/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/login/login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/login/login.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/manage-stock/manage-stock-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/manage-stock/manage-stock-view.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/trade/trade-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/trade/trade-view.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shares/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shares/footer/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shares/footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shares/footer/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/shares/header/header-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shares/header/header-view.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shares/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shares/header/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shares/side-bar/side-bar-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shares/side-bar/side-bar-view.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shares/side-bar/side-bar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shares/side-bar/side-bar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/locales/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/messages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/apl.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/chi.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +55,16 @@
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -84,6 +75,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -103,7 +99,7 @@
       <workItem from="1567818842852" duration="8000" />
       <workItem from="1568264902730" duration="2189000" />
       <workItem from="1568500598954" duration="41000" />
-      <workItem from="1568500663503" duration="1661000" />
+      <workItem from="1568500663503" duration="1805000" />
     </task>
     <servers />
   </component>

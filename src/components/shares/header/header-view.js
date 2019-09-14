@@ -35,11 +35,10 @@ const HeaderView = props => {
                                 {getHeaderItems("nav.trade")}
                             </NavLink>
                             <ul className="dropdown-menu">
-                                <li>My WatchList</li>
-                                <li>My Current Questions</li>
-                                <li>My Answered Questions</li>
-                                <li>My Current Offers</li>
-                                <li>My Completed Offers</li>
+                                <li>Step 1</li>
+                                <li>Step 2</li>
+                                <li>Step 3</li>
+                                <li>Step 4</li>
                             </ul>
                         </li>
                         <li className="nav-item">
@@ -47,9 +46,10 @@ const HeaderView = props => {
                                 {getHeaderItems("nav.manage-stock")}
                             </NavLink>
                             <ul className="dropdown-menu">
-                                <li>Stock Lists</li>
-                                <li>Options</li>
-                                <li>Virtual Stock</li>
+                                <li>Step 1</li>
+                                <li>Step 2</li>
+                                <li>Step 3</li>
+                                <li>Step 4</li>
                             </ul>
                         </li>
                         <li className="nav-item">
@@ -58,7 +58,6 @@ const HeaderView = props => {
                             </NavLink>
                             <ul className="dropdown-menu">
                                 <li>About Us</li>
-                                <li>How It Works</li>
                                 <li>Teams and Conditions</li>
                                 <li>Privacy Policy</li>
                                 <li>Contact Us</li>
