@@ -11,6 +11,7 @@ import Help from "../components/pages/help-page";
 import Trade from "../components/pages/trade";
 import ManageStock from "../components/pages/manage-stock";
 import Footer from "../components/shares/footer";
+import Editor from "../editor";
 
 class App extends Component {
     render() {
@@ -25,6 +26,7 @@ class App extends Component {
                             <Route path='/manage-stock' exact component={ManageStock}/>
                             <Route path='/account' exact component={Account}/>
                             <Route path='/help' exact component={Help}/>
+                            <Route path='/editor' component={Editor}/>
                             <Route render={() => <Redirect from="/*" to="/"/>}/>
                         </Switch>
                     </div>
