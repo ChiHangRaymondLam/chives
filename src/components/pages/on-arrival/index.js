@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import TradeView from "./trade-view";
-import "./trade.scss"
+import OnArrival from "./on-arrival";
+import "./on-arrival.css"
 
 class Trade extends Component {
 
     render() {
-        return <TradeView/>;
+        return <OnArrival/>;
     }
 }
 

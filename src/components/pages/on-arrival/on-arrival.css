@@ -1,0 +1,26 @@
+.step-diagram {
+    width: 220px;
+    height: 220px;
+    border: 20px solid;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    /*line-height: 180px;*/
+    display: inline-block;
+}
+
+.step-diagram-content {
+    font-family:Apple Chancery, cursive ;
+    font-size: 28px;
+    font-weight: bold;
+    /*margin-top:60px;*/
+}
+
+.step-container {
+    display: flex;
+}
+
+.icon-moon {
+   margin-top: 60px;
+    width:120px;
+}

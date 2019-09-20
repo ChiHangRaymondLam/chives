@@ -8,7 +8,7 @@ import Home from "../components/pages/home";
 import Header from "../components/shares/header";
 import Account from "../components/pages/account";
 import Help from "../components/pages/help-page";
-import Trade from "../components/pages/trade";
+import Trade from "../components/pages/on-arrival";
 import ManageStock from "../components/pages/manage-stock";
 import Footer from "../components/shares/footer";
 import Editor from "../editor";
