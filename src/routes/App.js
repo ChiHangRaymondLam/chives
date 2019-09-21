@@ -8,7 +8,8 @@ import Home from "../components/pages/home";
 import Header from "../components/shares/header";
 import Account from "../components/pages/account";
 import Help from "../components/pages/help-page";
-import Trade from "../components/pages/on-arrival";
+import Arrival from "../components/pages/on-arrival";
+import Transportation from "../components/pages/on-arrival/sub-pages/transportation";
 import ManageStock from "../components/pages/manage-stock";
 import Footer from "../components/shares/footer";
 import Editor from "../editor";
@@ -22,7 +23,8 @@ class App extends Component {
                     <div className='container'>
                         <Switch>
                             <Route path='/' exact component={Home}/>
-                            <Route path='/trade' exact component={Trade}/>
+                            <Route path='/on-arrival' exact component={Arrival}/>
+                            <Route path='/on-arrival/transportation' exact component={Transportation}></Route>
                             <Route path='/manage-stock' exact component={ManageStock}/>
                             <Route path='/account' exact component={Account}/>
                             <Route path='/help' exact component={Help}/>

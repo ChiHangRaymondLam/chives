@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import {NavLink} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 import './header.scss'
 import Logo from '../../../assets/images/masseyUniversityLogo.png'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
@@ -31,14 +31,13 @@ const HeaderView = props => {
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to={"/trade"} activeClassName="active" exact>
+                            <NavLink className="nav-link" to={"/on-arrival"} activeClassName="active" exact>
                                 {getHeaderItems("nav.trade")}
                             </NavLink>
                             <ul className="dropdown-menu">
-                                <li>Step 1</li>
-                                <li>Step 2</li>
-                                <li>Step 3</li>
-                                <li>Step 4</li>
+                                <Link to={'/on-arrival/transportation'} style={{color: "#FFFFFF"}} ><li>Transportation</li></Link>
+                                <li>General Information</li>
+                                <li>Hotel & Living</li>
                             </ul>
                         </li>
                         <li className="nav-item">
@@ -103,7 +102,7 @@ const HeaderView = props => {
                             <span>&nbsp;/&nbsp;</span>
                             <button className={lang === "ja" ? "active" : null} onClick={() => {
                                 setLocales("ja")
-                            }}>日本語
+                            }}>中文
                             </button>
                         </div>
                     </div>
