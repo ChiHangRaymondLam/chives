@@ -19,9 +19,13 @@ class Transportation extends Component {
     }
 
     fromAirportToCity() {
-        let content = this.props.resources[0].content;
+        let content = this.props.resources;
+        if(content==null){
+            return null;
+        }
+
         return (
-            content
+            content[0].content
         );
     }
 
@@ -53,8 +57,8 @@ const mapDispatchToProps = (dispatch) => ({
                 'topic':topic
             }
         }).then((res) => {
-            //let originAxiosRes = res;
-            //console.log('!!!!!!!!!!' + originAxiosRes.data[0].resourceId);
+            let originAxiosRes = res;
+            console.log('!!!!!!!!!!' + originAxiosRes.data[0].resourceId);
             let result = [];
             result = res.data;
             const getResources = {
